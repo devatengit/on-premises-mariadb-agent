@@ -1,7 +1,8 @@
 # Devaten MariaDB On-Premise Agent
 
-## How to Install <br />
-   To run the On-Premise MariaDB Agent Docker Compose File locally, you must have Git, Docker and Docker Compose installed and do the following: <br />
+## How to Install
+
+To run the On-Premise MariaDB Agent Docker Compose File locally, you must have Git, Docker and Docker Compose installed and do the following:
 
 1. Firstly Clone the Docker Compose file from Github using -
 
@@ -22,7 +23,7 @@ https://github.com/devatengit/on-premises-mysql-agent.git
 sudo docker-compose pull
 ```
 
-This will download the docker images locally.
+ &nbsp; This will download the docker images locally.
 
 3. To run Docker Images mentioned in Docker Compose File, Write the following command:
 
