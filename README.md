@@ -6,7 +6,7 @@ To run the On-Premise MariaDB Agent Docker Compose File locally, you must have G
 
 1. Firstly Clone the Docker Compose file from Github using -
 
- &nbsp; ```
+```
 https://github.com/devatengit/on-premises-mysql-agent.git
 ``` 
 ## Note:
@@ -31,7 +31,7 @@ sudo docker-compose pull
 sudo docker-compose up
 ```
 
-This command starts all the docker containers.
+ &nbsp; This command starts all the docker containers.
 
 4. Once the docker image is running, go to your browser and hit the http://localhost:8081/ URL. Your Devaten dashboard will open. After opening the dashboard add your agent, add the application and database of your application and you are ready to use the application.
 
@@ -41,7 +41,7 @@ This command starts all the docker containers.
 sudo docker-compose pause
 ```
 
-command in your terminal. It will stop your application.
+ &nbsp; command in your terminal. It will stop your application.
 
 6. If you want to resume the stopped containers, type 
 
@@ -49,7 +49,7 @@ command in your terminal. It will stop your application.
 sudo docker-compose unpause 
 ```
 
-command in your terminal. It will start your application again.
+ &nbsp; command in your terminal. It will start your application again.
 
 7. If you want to check the logs of any of the running containers use this command- 
 
@@ -63,5 +63,5 @@ sudo docker logs -f Container_Name
 sudo docker-compose down 
 ``` 
 
-It will stop all running containers and delete all the containers.
+ &nbsp; It will stop all running containers and delete all the containers.
 
