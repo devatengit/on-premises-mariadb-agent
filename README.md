@@ -7,7 +7,7 @@ To run the On-Premise MariaDB Agent Docker Compose File locally, you must have G
 1. Firstly Clone the Docker Compose file from Github using -
 
 ```
-https://github.com/devatengit/on-premises-mysql-agent.git
+git clone https://github.com/devatengit/on-premises-mariadb-agent.git
 ``` 
 ## Note:
 
